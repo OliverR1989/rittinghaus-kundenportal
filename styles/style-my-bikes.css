@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+}
+
+.header-wrapper {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    padding: 10px;
+
+    background-color: #6B7D52;
+    color: white;
+}
+
+main {
+    height: calc(100% - 360px);
+}
+
+.main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.costumer-card {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    background-color: #6B7D52;
+    color: white;
+    border-radius: 20px;
+}
+
+.my-bikes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.my-bikes-headline {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.my-bikes-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.bike-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(111, 142, 111);
+    color: white;
+    border-radius: 20px;
+}
+
+.bike-card-headline {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 2px solid lightgray;
+}
+
+.bike-card-information {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.button {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+    background-color: #D90750;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+    padding: 10px;
+
+    background-color: #6B7D52;
+    color: white;
+}
+
+.footer-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
