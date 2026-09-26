@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prophete Werkstatt - Fahrzeug registrieren</title>
-    <link href="../styles/style-my-bikes.css" rel="stylesheet">
+    <link href="../styles/style-registration-bikes.css" rel="stylesheet">
     <link href="../styles/typography.css" rel="stylesheet">
     <script src="../script.js"></script>
 </head>
 
 <body>
-
+    <header>
+        <div class="header-wrapper">
+            <a href="./my-bikes.html">Meine Fahrzeuge</a>
+        </div>
+    </header>
+    <main>
+        <div class="main-wrapper">
+            <div class="main-headline">
+                <p>Fahrzeug registrieren</p>
+                <p>Die Angaben finden Sie auf Ihrer Rechnung oder am Rahmen</p>
+            </div>
+            <div class="main-content">
+                <form>
+                    <label for="text">Fahrzeugtyp</label>
+                    <input type="text" id="bike-type" name="text" placeholder="E-Bike oder Fahrrad">
+                    <label for="text">Modell</label>
+                    <input type="text" id="bike-model" name="text" placeholder="z.B. Entdecker Sport">
+                    <label for="text">Artikelnummer</label>
+                    <input type="text" id="bike-article-number" name="text" placeholder="z.B. 5xxxx-xxxx">
+                    <label for="text">Seriennummer</label>
+                    <input type="text" id="bike-serialnumber" name="text">
+                    <label for="text">Kaufdatum</label>
+                    <input type="text" id="bike-purchase-date" name="text" placeholder="TT.MM.JJJJ">
+                    <button>Fahrzeug speichern</button>
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
