@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+}
+
+.header-wrapper {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 10px;
+
+    background-color: #6B7D52;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 270px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.card-wrapper {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: #6B7D52;
+    color: white;
+    border-radius: 30px;
+}
+
+.card-headline {
+    display: flex;
+    gap: 10px;
+}
+
+.bike-img {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.card-information {
+    display: flex;
+    gap: 10px;
+}
+
+.card-status-wrapper {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.card-status {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 10px;
+
+    background-color: #D90750;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 10px;
+
+    background-color: #6B7D52;
+    color: white;
+}
+
+.info-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+}

@@ -10,14 +10,13 @@ body {
 
 .header-wrapper {
     width: 100%;
-    height: 120px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+
 
     padding: 10px;
 
@@ -26,7 +25,7 @@ body {
 }
 
 main {
-    height: calc(100% - 360px);
+    height: calc(100% - 200px);
 }
 
 .main-wrapper {
@@ -35,7 +34,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 10px;
 
     padding: 10px;
@@ -114,6 +112,21 @@ main {
     padding: 10px;
 }
 
+button {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+    background-color: #D90750;
+    border: transparent;
+    color: white;
+    font-size: 18px;
+}
+
 .button {
     width: 100%;
     height: 50px;
@@ -131,14 +144,11 @@ main {
 
 .footer-wrapper {
     width: 100%;
-    height: 240px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 10px;
-
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
 
     padding: 10px;
 
